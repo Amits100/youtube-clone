@@ -20,6 +20,8 @@
 				</dict>
 			</array>
 		</dict>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
 	</dict>
 </dict>
 </plist>
