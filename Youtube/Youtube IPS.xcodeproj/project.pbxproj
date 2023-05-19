@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		FACC45132A17751F00B2BFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC45122A17751F00B2BFC2 /* AppDelegate.swift */; };
 		FACC45152A17751F00B2BFC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC45142A17751F00B2BFC2 /* SceneDelegate.swift */; };
-		FACC45172A17751F00B2BFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC45162A17751F00B2BFC2 /* ViewController.swift */; };
+		FACC45172A17751F00B2BFC2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC45162A17751F00B2BFC2 /* HomeVC.swift */; };
 		FACC451A2A17751F00B2BFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC45182A17751F00B2BFC2 /* Main.storyboard */; };
 		FACC451C2A17752000B2BFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC451B2A17752000B2BFC2 /* Assets.xcassets */; };
 		FACC451F2A17752000B2BFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC451D2A17752000B2BFC2 /* LaunchScreen.storyboard */; };
+		FAEA717F2A1781750044E89B /* Sofia Pro Soft Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAEA717C2A1781750044E89B /* Sofia Pro Soft Regular.otf */; };
+		FAEA71802A1781750044E89B /* Sofia Pro Soft Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAEA717D2A1781750044E89B /* Sofia Pro Soft Bold.otf */; };
+		FAEA71812A1781750044E89B /* Sofia Pro Soft Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAEA717E2A1781750044E89B /* Sofia Pro Soft Medium.otf */; };
+		FAEA71832A1781E90044E89B /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA71822A1781E90044E89B /* AppConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FACC450F2A17751F00B2BFC2 /* Youtube IPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube IPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC45122A17751F00B2BFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACC45142A17751F00B2BFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FACC45162A17751F00B2BFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACC45162A17751F00B2BFC2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FACC45192A17751F00B2BFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FACC451B2A17752000B2BFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACC451E2A17752000B2BFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACC45202A17752000B2BFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEA717C2A1781750044E89B /* Sofia Pro Soft Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Soft Regular.otf"; sourceTree = "<group>"; };
+		FAEA717D2A1781750044E89B /* Sofia Pro Soft Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Soft Bold.otf"; sourceTree = "<group>"; };
+		FAEA717E2A1781750044E89B /* Sofia Pro Soft Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sofia Pro Soft Medium.otf"; sourceTree = "<group>"; };
+		FAEA71822A1781E90044E89B /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,7 @@
 		FAEA71772A17804D0044E89B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FACC45162A17751F00B2BFC2 /* ViewController.swift */,
+				FACC45162A17751F00B2BFC2 /* HomeVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -85,6 +93,7 @@
 		FAEA71782A1780580044E89B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FAEA71822A1781E90044E89B /* AppConstant.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -92,6 +101,7 @@
 		FAEA71792A17805D0044E89B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAEA717B2A1781750044E89B /* Fonts */,
 				FACC451B2A17752000B2BFC2 /* Assets.xcassets */,
 				FACC45202A17752000B2BFC2 /* Info.plist */,
 			);
@@ -105,6 +115,16 @@
 				FACC451D2A17752000B2BFC2 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FAEA717B2A1781750044E89B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA717C2A1781750044E89B /* Sofia Pro Soft Regular.otf */,
+				FAEA717D2A1781750044E89B /* Sofia Pro Soft Bold.otf */,
+				FAEA717E2A1781750044E89B /* Sofia Pro Soft Medium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACC451F2A17752000B2BFC2 /* LaunchScreen.storyboard in Resources */,
+				FAEA71802A1781750044E89B /* Sofia Pro Soft Bold.otf in Resources */,
+				FAEA71812A1781750044E89B /* Sofia Pro Soft Medium.otf in Resources */,
 				FACC451C2A17752000B2BFC2 /* Assets.xcassets in Resources */,
+				FAEA717F2A1781750044E89B /* Sofia Pro Soft Regular.otf in Resources */,
 				FACC451A2A17751F00B2BFC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,9 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACC45172A17751F00B2BFC2 /* ViewController.swift in Sources */,
+				FACC45172A17751F00B2BFC2 /* HomeVC.swift in Sources */,
 				FACC45132A17751F00B2BFC2 /* AppDelegate.swift in Sources */,
 				FACC45152A17751F00B2BFC2 /* SceneDelegate.swift in Sources */,
+				FAEA71832A1781E90044E89B /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

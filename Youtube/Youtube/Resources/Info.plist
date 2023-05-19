@@ -22,6 +22,12 @@
 		</dict>
         <key>CFBundleIconName</key>
         <string>AppIcon</string>
+        <key>UIAppFonts</key>
+        <array>
+            <string>Sofia Pro Soft Bold.otf</string>
+            <string>Sofia Pro Soft Medium.otf</string>
+            <string>Sofia Pro Soft Regular.otf</string>
+        </array>
 	</dict>
 </dict>
 </plist>
