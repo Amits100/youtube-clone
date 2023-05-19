@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FACC450F2A17751F00B2BFC2 /* Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youtube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACC450F2A17751F00B2BFC2 /* Youtube IPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube IPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC45122A17751F00B2BFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACC45142A17751F00B2BFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FACC45162A17751F00B2BFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FACC45102A17751F00B2BFC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FACC450F2A17751F00B2BFC2 /* Youtube.app */,
+				FACC450F2A17751F00B2BFC2 /* Youtube IPS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FACC450E2A17751F00B2BFC2 /* Youtube */ = {
+		FACC450E2A17751F00B2BFC2 /* Youtube IPS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACC45232A17752000B2BFC2 /* Build configuration list for PBXNativeTarget "Youtube" */;
+			buildConfigurationList = FACC45232A17752000B2BFC2 /* Build configuration list for PBXNativeTarget "Youtube IPS" */;
 			buildPhases = (
 				FACC450B2A17751F00B2BFC2 /* Sources */,
 				FACC450C2A17751F00B2BFC2 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Youtube;
+			name = "Youtube IPS";
 			productName = Youtube;
-			productReference = FACC450F2A17751F00B2BFC2 /* Youtube.app */;
+			productReference = FACC450F2A17751F00B2BFC2 /* Youtube IPS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FACC450A2A17751F00B2BFC2 /* Build configuration list for PBXProject "Youtube" */;
+			buildConfigurationList = FACC450A2A17751F00B2BFC2 /* Build configuration list for PBXProject "Youtube IPS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FACC450E2A17751F00B2BFC2 /* Youtube */,
+				FACC450E2A17751F00B2BFC2 /* Youtube IPS */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FACC450A2A17751F00B2BFC2 /* Build configuration list for PBXProject "Youtube" */ = {
+		FACC450A2A17751F00B2BFC2 /* Build configuration list for PBXProject "Youtube IPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACC45212A17752000B2BFC2 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACC45232A17752000B2BFC2 /* Build configuration list for PBXNativeTarget "Youtube" */ = {
+		FACC45232A17752000B2BFC2 /* Build configuration list for PBXNativeTarget "Youtube IPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACC45242A17752000B2BFC2 /* Debug */,
