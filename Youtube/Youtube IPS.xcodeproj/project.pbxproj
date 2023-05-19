@@ -56,15 +56,55 @@
 		FACC45112A17751F00B2BFC2 /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				FACC45122A17751F00B2BFC2 /* AppDelegate.swift */,
-				FACC45142A17751F00B2BFC2 /* SceneDelegate.swift */,
-				FACC45162A17751F00B2BFC2 /* ViewController.swift */,
-				FACC45182A17751F00B2BFC2 /* Main.storyboard */,
-				FACC451B2A17752000B2BFC2 /* Assets.xcassets */,
-				FACC451D2A17752000B2BFC2 /* LaunchScreen.storyboard */,
-				FACC45202A17752000B2BFC2 /* Info.plist */,
+				FAEA717A2A17807A0044E89B /* Storyboard */,
+				FAEA71792A17805D0044E89B /* Resources */,
+				FAEA71782A1780580044E89B /* Extension */,
+				FAEA71772A17804D0044E89B /* ViewController */,
+				FAEA71762A1780470044E89B /* Delegate */,
 			);
 			path = Youtube;
+			sourceTree = "<group>";
+		};
+		FAEA71762A1780470044E89B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FACC45142A17751F00B2BFC2 /* SceneDelegate.swift */,
+				FACC45122A17751F00B2BFC2 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FAEA71772A17804D0044E89B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FACC45162A17751F00B2BFC2 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FAEA71782A1780580044E89B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FAEA71792A17805D0044E89B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FACC451B2A17752000B2BFC2 /* Assets.xcassets */,
+				FACC45202A17752000B2BFC2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAEA717A2A17807A0044E89B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FACC45182A17751F00B2BFC2 /* Main.storyboard */,
+				FACC451D2A17752000B2BFC2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M36758779V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Youtube/Info.plist;
+				INFOPLIST_FILE = Youtube/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M36758779V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Youtube/Info.plist;
+				INFOPLIST_FILE = Youtube/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
